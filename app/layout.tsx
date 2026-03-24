@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   },
   description:
     'AI 친구, AI 음성통화, MBTI 매칭까지. eLLa와 함께하는 새로운 AI 컴패니언 경험을 블로그에서 만나보세요.',
-  metadataBase: new URL('https://blog.ella-app.com'),
+  metadataBase: new URL('https://blog.meetella.app'),
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
@@ -46,6 +46,12 @@ export default function RootLayout({
                 홈
               </a>
               <a
+                href="/about"
+                className="text-sm text-slate-400 hover:text-white transition-colors"
+              >
+                About
+              </a>
+              <a
                 href="https://ella-app.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -68,16 +74,22 @@ export default function RootLayout({
             <p>&copy; 2026 YuzuFam. All rights reserved.</p>
             <div className="flex justify-center gap-4">
               <a
-                href="https://ella-app.com/terms"
+                href="/terms"
                 className="hover:text-slate-300 transition-colors"
               >
                 이용약관
               </a>
               <a
-                href="https://ella-app.com/privacy"
+                href="/privacy"
                 className="hover:text-slate-300 transition-colors"
               >
                 개인정보처리방침
+              </a>
+              <a
+                href="/about"
+                className="hover:text-slate-300 transition-colors"
+              >
+                About
               </a>
             </div>
           </div>

@@ -29,6 +29,9 @@ export function markdownToHtml(md: string): string {
   html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
   html = html.replace(/\*(.+?)\*/g, '<em>$1</em>')
 
+  // 이미지 (링크보다 먼저 처리)
+  html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<figure><img src="$2" alt="$1" loading="lazy" /><figcaption>$1</figcaption></figure>')
+
   // 링크
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
 
@@ -52,7 +55,8 @@ export function markdownToHtml(md: string): string {
         trimmed.startsWith('<blockquote') ||
         trimmed.startsWith('<pre') ||
         trimmed.startsWith('<hr') ||
-        trimmed.startsWith('<li')
+        trimmed.startsWith('<li') ||
+        trimmed.startsWith('<figure')
       ) {
         return trimmed
       }

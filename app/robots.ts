@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://blog.ella-app.com/sitemap.xml',
+    sitemap: 'https://blog.meetella.app/sitemap.xml',
   }
 }
