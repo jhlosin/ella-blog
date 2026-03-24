@@ -1,7 +1,7 @@
 ---
 title: "MBTI별 나와 맞는 AI 페르소나 찾기"
 description: "MBTI 유형에 따라 어떤 AI 페르소나가 잘 맞을까? 유형별 추천과 매칭 시스템을 소개합니다."
-date: "2026-03-16"
+date: "2026-01-27"
 author: "eLLa 팀"
 tags: ["MBTI", "페르소나", "매칭"]
 ---
