@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ella-dark: #0a0a0f;
+  --color-ella-dark-card: #14141f;
+  --color-ella-dark-border: #1e1e2e;
+  --color-ella-purple: #8b5cf6;
+  --color-ella-pink: #ec4899;
+  --color-ella-purple-light: #a78bfa;
+  --color-ella-pink-light: #f472b6;
+}
+
+body {
+  background-color: var(--color-ella-dark);
+  color: #e2e8f0;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-ella-purple), var(--color-ella-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-border {
+  border-image: linear-gradient(135deg, var(--color-ella-purple), var(--color-ella-pink)) 1;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--color-ella-purple), var(--color-ella-pink));
+}
+
+article.prose {
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+article.prose h1,
+article.prose h2,
+article.prose h3,
+article.prose h4 {
+  color: #f1f5f9;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+
+article.prose h2 {
+  font-size: 1.5rem;
+}
+
+article.prose h3 {
+  font-size: 1.25rem;
+}
+
+article.prose p {
+  margin-bottom: 1.25em;
+}
+
+article.prose strong {
+  color: #f1f5f9;
+}
+
+article.prose a {
+  color: var(--color-ella-purple-light);
+  text-decoration: underline;
+}
+
+article.prose ul,
+article.prose ol {
+  margin-bottom: 1.25em;
+  padding-left: 1.5em;
+}
+
+article.prose li {
+  margin-bottom: 0.5em;
+}
+
+article.prose blockquote {
+  border-left: 3px solid var(--color-ella-purple);
+  padding-left: 1em;
+  color: #94a3b8;
+  font-style: italic;
+  margin-bottom: 1.25em;
+}
+
+article.prose hr {
+  border-color: var(--color-ella-dark-border);
+  margin: 2em 0;
+}
