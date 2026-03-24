@@ -35,7 +35,14 @@ article.prose {
   line-height: 1.8;
 }
 
-article.prose h1,
+article.prose h1 {
+  color: #f1f5f9;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
 article.prose h2,
 article.prose h3,
 article.prose h4 {
@@ -46,14 +53,15 @@ article.prose h4 {
 }
 
 article.prose h2 {
-  font-size: 1.5rem;
-}
-
-article.prose h3 {
   font-size: 1.25rem;
 }
 
+article.prose h3 {
+  font-size: 1.125rem;
+}
+
 article.prose p {
+  font-size: 1rem;
   margin-bottom: 1.25em;
 }
 
@@ -100,8 +108,5 @@ article.prose figure img {
 }
 
 article.prose figure figcaption {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #64748b;
-  margin-top: 0.5em;
+  display: none;
 }
