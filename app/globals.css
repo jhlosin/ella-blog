@@ -30,12 +30,12 @@ body {
   background: linear-gradient(135deg, var(--color-ella-purple), var(--color-ella-pink));
 }
 
-article.prose {
+.prose-content {
   color: #cbd5e1;
   line-height: 1.8;
 }
 
-article.prose h1 {
+.prose-content h1 {
   color: #f1f5f9;
   font-weight: 700;
   font-size: 2rem;
@@ -43,48 +43,48 @@ article.prose h1 {
   margin-bottom: 0.75em;
 }
 
-article.prose h2,
-article.prose h3,
-article.prose h4 {
+.prose-content h2,
+.prose-content h3,
+.prose-content h4 {
   color: #f1f5f9;
   font-weight: 700;
-  margin-top: 2em;
-  margin-bottom: 0.75em;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
 }
 
-article.prose h2 {
+.prose-content h2 {
   font-size: 1.5rem;
 }
 
-article.prose h3 {
+.prose-content h3 {
   font-size: 1.25rem;
 }
 
-article.prose p {
+.prose-content p {
   font-size: 1rem;
-  margin-bottom: 1.25em;
+  margin-bottom: 1.75em;
 }
 
-article.prose strong {
+.prose-content strong {
   color: #f1f5f9;
 }
 
-article.prose a {
+.prose-content a {
   color: var(--color-ella-purple-light);
   text-decoration: underline;
 }
 
-article.prose ul,
-article.prose ol {
+.prose-content ul,
+.prose-content ol {
   margin-bottom: 1.25em;
   padding-left: 1.5em;
 }
 
-article.prose li {
+.prose-content li {
   margin-bottom: 0.5em;
 }
 
-article.prose blockquote {
+.prose-content blockquote {
   border-left: 3px solid var(--color-ella-purple);
   padding-left: 1em;
   color: #94a3b8;
@@ -92,21 +92,21 @@ article.prose blockquote {
   margin-bottom: 1.25em;
 }
 
-article.prose hr {
+.prose-content hr {
   border-color: var(--color-ella-dark-border);
   margin: 2em 0;
 }
 
-article.prose figure {
-  margin: 2em 0;
+.prose-content figure {
+  margin: 2.5em 0;
 }
 
-article.prose figure img {
+.prose-content figure img {
   width: 100%;
   border-radius: 0.75rem;
   border: 1px solid var(--color-ella-dark-border);
 }
 
-article.prose figure figcaption {
+.prose-content figure figcaption {
   display: none;
 }

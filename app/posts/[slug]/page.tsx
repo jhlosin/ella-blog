@@ -74,7 +74,7 @@ export default async function PostPage({ params }: Props) {
 
       {/* Content */}
       <div
-        className="prose"
+        className="prose-content"
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
 
