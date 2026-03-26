@@ -52,12 +52,12 @@ export default function RootLayout({
                 About
               </a>
               <a
-                href="https://ella-app.com"
+                href="https://start.meetella.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-ella-purple-light hover:text-ella-purple transition-colors"
               >
-                eLLa 앱
+                eLLa 시작하기
               </a>
             </nav>
           </div>
