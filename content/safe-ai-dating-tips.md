@@ -2,7 +2,7 @@
 title: "AI 소개팅, 이것만은 알고 시작하세요"
 description: "AI 매칭 앱을 처음 시작하는 분들을 위한 실용 가이드. 앱 선택부터 건강한 사용법까지."
 date: "2026-03-14"
-author: "주환"
+author: "Peter Park"
 tags: ["가이드", "팁", "AI 소개팅"]
 ---
 

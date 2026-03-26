@@ -2,7 +2,7 @@
 title: "AI 채팅 앱 5개 직접 써보고 비교한 후기"
 description: "Character.AI, Replika, Chai, Candy AI, eLLa까지. 한 달간 5개 앱을 직접 써본 솔직한 비교 후기."
 date: "2026-02-17"
-author: "주환"
+author: "Peter Park"
 tags: ["비교", "후기", "AI 채팅"]
 ---
 
