@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <article className="max-w-3xl mx-auto prose">
+    <article className="max-w-3xl mx-auto prose-content">
       <h1>About</h1>
 
       <h2>eLLa 블로그에 대하여</h2>

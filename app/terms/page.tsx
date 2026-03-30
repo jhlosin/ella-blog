@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <article className="max-w-3xl mx-auto prose">
+    <article className="max-w-3xl mx-auto prose-content">
       <h1>이용약관</h1>
       <p className="text-sm text-slate-500">최종 수정일: 2026년 3월 24일</p>
 
