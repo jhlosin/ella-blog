@@ -22,7 +22,7 @@ export default function TermsPage() {
       <ul>
         <li>상호: YuzuFam</li>
         <li>대표: 박주환</li>
-        <li>사업자등록번호: 749-13-02919</li>
+        <li>사업자등록번호: 690-21-00467</li>
         <li>이메일: hello@meetella.app</li>
       </ul>
 

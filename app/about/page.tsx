@@ -61,12 +61,7 @@ export default function AboutPage() {
         누구나 편안하게 대화하고 교감할 수 있는 AI 컴패니언 서비스를
         개발하고 있습니다.
       </p>
-      <ul>
-        <li>대표: 박주환</li>
-        <li>사업자등록번호: 749-13-02919</li>
-        <li>이메일: hello@meetella.app</li>
-      </ul>
-
+      
       <h2>블로그의 목적</h2>
       <p>
         이 블로그는 AI 컴패니언 기술과 디지털 라이프스타일에 대한 정확하고
